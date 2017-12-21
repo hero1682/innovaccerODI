@@ -9,6 +9,10 @@ import { ActivatedRoute } from '@angular/router';
 export class HomeComponent implements OnInit {
 
   user: any;
+  lbl:Array<string>=[
+    'Top Releases',
+    'Top Rated'
+  ]
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit() {
